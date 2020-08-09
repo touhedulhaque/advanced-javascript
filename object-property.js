@@ -10,15 +10,15 @@ const students = [
 
 const studentName = [];
 
-for (let i = 0; i < students.name; i++) {
+for (let i = 0; i < students.name.length; i++) {
     const result = students.name[i];
     output.push(result)
     
 }
 
-const names = students.map( s => s.name);
-const ids = students.map( s => s.id);
+// const names = students.map( s => s.name);
+// const ids = students.map( s => s.id);
 
-const bigger = students.filter ( s => s.id>25);
-const biggerOne = students.find ( s=> s.id>25)
-console.log(biggerOne);
+// const bigger = students.filter ( s => s.id>25);
+// const biggerOne = students.find ( s=> s.id>25)
+console.log(studentName);
